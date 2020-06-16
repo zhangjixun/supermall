@@ -8,7 +8,8 @@
         src="~assets/images/tabbar/home_active.svg"
         alt=""
       />
-      <div slot="item-text">首页</div>
+
+      <template #item-text> <div>首页</div> </template>
     </tab-bar-item>
     <tab-bar-item path="/category">
       <img slot="item-icon" src="~assets/images/tabbar/category.svg" alt="" />
